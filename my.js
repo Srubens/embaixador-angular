@@ -1,0 +1,38 @@
+angular.module("ErLista", []);
+angular.module("ErLista").controller("EmbaixadoresLista", function($scope){
+    $scope.er = "Lista de Embaixadores";
+    $scope.embaixadores = [
+        {nome:"Rubens Filipe",posto:"Conselheiro", img:"img/filipe.jpg", prova:10, pontos: 18},
+        {nome:"Dayvson Henrique",posto:"Arauto", img:"img/dayvson-er.jpg", prova:3, pontos: 1},
+        {nome:"Lucas Victor",posto:"Arauto", img:"img/victor-er.jpg", prova:5, pontos: 24},
+        {nome:"Eronildo Junior",posto:"Arauto", img:"img/junior-er.jpg", prova:5, pontos: 21},
+        {nome:"Liviston Lima",posto:"Candidato", img:"img/liviston-er.jpg", prova:3, pontos: 8},
+        {nome:"Pedro Victor",posto:"Candidato", img:"img/pedro-er.jpg", prova:'Escapou', pontos: 4},
+        {nome:"João Gabriel",posto:"Arauto", img:"img/joao-er.jpg", prova:3.5, pontos: 4},
+        {nome:"Andrwn Margalhes",posto:"Arauto", img:"img/andrwn-er.jpg", prova:3.5, pontos: 4},
+        {nome:"Andrey Margalhes",posto:"Candidato", img:"img/andrey-er.jpg", prova:'null', pontos: ''},
+        {nome:"Aulemir Filho",posto:"Candidato", img:"img/aulemir-er.jpg", prova:'null', pontos: ''},
+        {nome:"Diogo Paixão",posto:"Arauto", img:"img/diogo-er.jpg", prova:'null', pontos: ''},
+        {nome:"Pedro Henrique",posto:"Candidato", img:"img/dipedrinho-er.jpg", prova:'null', pontos: ''},
+        {nome:"Gilberto França",posto:"Arauto", img:"img/gilberto-er.jpg", prova:6, pontos: 10},
+        {nome:"Guilherme França",posto:"Arauto", img:"img/guilherme-er.jpg", prova:8, pontos: 18},
+        {nome:"Hyago Mateus",posto:"Candidato", img:"img/hyago-er.jpg", prova:'null', pontos: ''},
+        {nome:"Lucas Melo",posto:"Candidato", img:"img/lucasmelo-er.jpg", prova:'null', pontos: ''},
+        {nome:"Matheus Freire",posto:"Candidato", img:"img/mateus-er.jpg", prova:'null', pontos: ''},
+        {nome:"Matheus Barbosa",posto:"Candidato", img:"img/matheusb-er.jpg", prova:'null', pontos: ''},
+        {nome:"Yvissen Souza",posto:"Candidato", img:"img/yvsen-er.jpg", prova:'null', pontos: ''},
+        {nome:"Douglas ",posto:"Candidato", img:"img/douglas-er.jpg", prova:'null', pontos: ''},
+        {nome:"Jonathan ",posto:"Arauto", img:"img/boy.png", prova:5, pontos: 11},
+        {nome:"Gleyson Victor",posto:"Candidato", img:"img/boy.png", prova:4, pontos: 10},
+        {nome:"Alysson Pestana",posto:"Arauto", img:"img/boy.png", prova:4.5, pontos: 5},
+        {nome:"Kevin",posto:"Candidato", img:"img/boy.png", prova:'Novo', pontos: ''},
+        {nome:"Antoni",posto:"Candidato", img:"img/boy.png", prova:'Novo', pontos: ''},
+        {nome:"Pedro",posto:"Candidato", img:"img/boy.png", prova:'Novo', pontos: ''},
+        {nome:"Miguel",posto:"Candidato", img:"img/boy.png", prova:'Novo', pontos:''},
+        {nome:"Washington",posto:"Conselheiro", img:"img/boy.png", prova:'null', pontos:''},
+        {nome:"Felipe Clause",posto:"Conselheiro", img:"img/boy.png", prova:'Novo', pontos:16},
+        {nome:"Bruno Paixao",posto:"Candidato", img:"img/boy.png", prova:'', pontos:''},
+        {nome:"Victor Cruz",posto:"Candidato", img:"img/boy.png", prova:'', pontos:''},
+        {nome:"Andre",posto:"Candidato", img:"img/boy.png", prova:'', pontos:6},
+    ];
+});
